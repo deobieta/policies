@@ -20,7 +20,9 @@
                 }
             ],
             "source": {
-                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#snappy/mfa-enabled.json" }
+                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#snappy/mfa-enabled.json" }
+
+                
             },
             "meta": {
                 "description": "MFA enabled on repository",
@@ -134,7 +136,7 @@
         {
             "id": "OSPS-LE-02",
             "source": {
-                "location": { "uri": "git+https://github.com/carabiner-dev/policies@dd0b6d76db4048e1938829d46e03d99feba59352#sbom/license-is-oss.json" }
+                "location": { "uri": "git+https://github.com/carabiner-dev/policies@9a70ca49804c2b993bb6b62d51d5524f3443d6ec#sbom/sbom-licenses-are-foss.json" }
             },
             "meta": {
                 "description": "All licenses for the project MUST meet the OSI Open Source Definition or the FSF Free Software Definition",
@@ -158,7 +160,7 @@
                     "predicate": {
                         "type": "https://github.com/slsa-framework/slsa-source-poc/source-provenance/v1-draft",
                         "runtime": "cel@v0",
-                        "selector": "github.orgDescriptorFromURI(predicate.data.repoUri)"
+                        "selector": "github.repoDescriptorFromURI(predicate.data.repoUri)"
                         
                     }
                 }
@@ -174,7 +176,8 @@
         {
             "id": "OSPS-QA-02",
             "source": {
-                "location": { "uri": "git+https://github.com/carabiner-dev/policies@dd0b6d76db4048e1938829d46e03d99feba59352#sbom/has-sbom.json" }
+                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#sbom/sbom-exists.json" }
+
             },
             "meta": {
                 "description": "The project MUST provide a list of dependencies used in the software",
@@ -188,8 +191,7 @@
                     "predicate": {
                         "type": "https://github.com/slsa-framework/slsa-source-poc/source-provenance/v1-draft",
                         "runtime": "cel@v0",
-                        "selector": "github.orgDescriptorFromURI(predicate.data.repoUri)"
-                        
+                        "selector": "github.branchDescriptorFromURI(predicate.data.repoUri, 'main')"
                     }
                 }
             ],
