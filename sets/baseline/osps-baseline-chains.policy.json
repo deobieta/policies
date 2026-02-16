@@ -284,7 +284,7 @@
         {
             "id": "OSPS-SA-03",
             "source": {
-                "location": { "uri": "git+https://github.com/carabiner-dev/policies@dd0b6d76db4048e1938829d46e03d99feba59352#security-insights/assessments.json" }
+                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#security-insights/assessments.json" }
             },
             "meta": {
                 "description": "The project MUST assess the security posture of all software assets",
