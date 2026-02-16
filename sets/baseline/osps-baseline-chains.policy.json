@@ -314,7 +314,7 @@
         {
             "id": "OSPS-BR-04",
             "source": {
-                "location": { "uri": "git+https://github.com/carabiner-dev/policies@dd0b6d76db4048e1938829d46e03d99feba59352#sbom/changelog.json" }
+                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#sbom/sbom-contains-changelog.json" }
             },
             "meta": {
                 "description": "When an official release is created, that release MUST contain a descriptive log of functional and security modifications",
