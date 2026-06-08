@@ -136,7 +136,7 @@
         {
             "id": "OSPS-LE-02",
             "source": {
-                "location": { "uri": "git+https://github.com/carabiner-dev/policies@9a70ca49804c2b993bb6b62d51d5524f3443d6ec#sbom/sbom-licenses-are-foss.json" }
+                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#sbom/sbom-licenses-are-foss.json" }
             },
             "meta": {
                 "description": "All licenses for the project MUST meet the OSI Open Source Definition or the FSF Free Software Definition",
@@ -334,7 +334,7 @@
         {
             "id": "OSPS-BR-06",
             "source": {
-                "location": { "uri": "git+https://github.com/carabiner-dev/policies@dd0b6d76db4048e1938829d46e03d99feba59352#slsa/has-attestation.json" }
+                "location": { "uri": "git+https://github.com/carabiner-dev/policies@911da7d4c09fa354f3181540d092e78c5b8f5f89#slsa/has-attestation.json" }
             },
             "meta": {
                 "description": "Release MUST be signed or accounted for in a signed manifest",
