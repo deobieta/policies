@@ -20,7 +20,7 @@
                 }
             ],
             "source": {
-                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#snappy/mfa-enabled.json" }
+                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#snappy/mfa-enabled.json" }
 
                 
             },
@@ -176,7 +176,7 @@
         {
             "id": "OSPS-QA-02",
             "source": {
-                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#sbom/sbom-exists.json" }
+                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#sbom/sbom-exists.json" }
 
             },
             "meta": {
@@ -226,7 +226,7 @@
         {
             "id": "OSPS-QA-06",
             "source": {
-                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#test-results/tests-pass.json" }
+                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#test-results/tests-pass.json" }
             },
             "meta": {
                 "description": "The project's CI/CD pipelines MUST run at least one automated test suite to ensure the changes meet expectations",
@@ -284,7 +284,7 @@
         {
             "id": "OSPS-SA-03",
             "source": {
-                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#security-insights/assessments.json" }
+                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#security-insights/assessments.json" }
             },
             "meta": {
                 "description": "The project MUST assess the security posture of all software assets",
@@ -314,7 +314,7 @@
         {
             "id": "OSPS-BR-04",
             "source": {
-                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#sbom/sbom-contains-changelog.json" }
+                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#sbom/sbom-contains-changelog.json" }
             },
             "meta": {
                 "description": "When an official release is created, that release MUST contain a descriptive log of functional and security modifications",
@@ -365,7 +365,7 @@
         {
             "id": "OSPS-DO-03",
             "source": {
-                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#security-insights/signature-verify.json" }
+                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#security-insights/signature-verify.json" }
             },
             "meta": {
                 "description": "Instructions to verify the integrity and authenticity of the release assets",
@@ -395,7 +395,7 @@
         {
             "id": "OSPS-DO-06",
             "source": {
-                "location": { "uri": "git+file:///home/gabo/github.com/deobieta/carabiner/policies@refs/heads/new-baseline#security-insights/dependency-policy.json" }
+                "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/new-baseline#security-insights/dependency-policy.json" }
             },
             "meta": {
                 "description": "The project's documentation MUST include a description of how the project selects, obtains, and tracks its dependencies.",
