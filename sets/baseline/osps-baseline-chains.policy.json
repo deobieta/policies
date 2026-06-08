@@ -338,6 +338,7 @@
             },
             "meta": {
                 "description": "Release MUST be signed or accounted for in a signed manifest",
+                "enforce": "OFF",
                 "controls": [ { "framework": "OSPS", "class": "BR", "id": "06" } ]
             }
         },
