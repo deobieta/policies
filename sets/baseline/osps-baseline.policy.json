@@ -34,15 +34,15 @@
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-ac-04.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-br-01.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-br-02.hjson" } } },
-        { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-br-04.hjson" } } },
+        { "source": { "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/fix/osps-ac-01-ghorg#groups/osps-baseline/osps-br-04.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-br-05.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-br-06.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-do-01.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-do-02.hjson" } } },
-        { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-do-03.hjson" } } },
+        { "source": { "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/fix/osps-ac-01-ghorg#groups/osps-baseline/osps-do-03.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-do-04.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-do-05.hjson" } } },
-        { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-do-06.hjson" } } },
+        { "source": { "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/fix/osps-ac-01-ghorg#groups/osps-baseline/osps-do-06.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-gv-01.hjson" } } },
         {
             "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-gv-02.hjson" } },
@@ -58,7 +58,7 @@
         },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-gv-03.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-gv-04.hjson" } } },
-        { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-le-02.hjson" } } },
+        { "source": { "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/fix/osps-ac-01-ghorg#groups/osps-baseline/osps-le-02.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-le-03.hjson" } } },
         {
             "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-qa-01.hjson" } },
@@ -72,7 +72,7 @@
                 }
             ]
         },
-        { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-qa-02.hjson" } } },
+        { "source": { "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/fix/osps-ac-01-ghorg#groups/osps-baseline/osps-qa-02.hjson" } } },
         {
             "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-qa-03.hjson" } },
             "chain": [
@@ -87,11 +87,11 @@
         },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-qa-04.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-qa-05.hjson" } } },
-        { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-qa-06.hjson" } } },
+        { "source": { "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/fix/osps-ac-01-ghorg#groups/osps-baseline/osps-qa-06.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-qa-07.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-sa-01.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-sa-02.hjson" } } },
-        { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-sa-03.hjson" } } },
+        { "source": { "location": { "uri": "git+https://github.com/deobieta/policies@refs/heads/fix/osps-ac-01-ghorg#groups/osps-baseline/osps-sa-03.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-vm-01.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-vm-02.hjson" } } },
         { "source": { "location": { "uri": "git+https://github.com/carabiner-dev/policies@9ab40e3d0b1d449959fadd1c58c88a0d8f7fb944#groups/osps-baseline/osps-vm-04.hjson" } } },
