@@ -13,7 +13,7 @@
                 {
                     "predicate": {
                         "type": "https://github.com/slsa-framework/slsa-source-poc/source-provenance/v1-draft",
-                        "runtime": "cel@v0",
+                        "runtime": "cel@v1",
                         "selector": "github.orgDescriptorFromURI(predicate.data.repoUri)"
                     }
                 }
@@ -25,7 +25,7 @@
                 {
                     "predicate": {
                         "type": "https://github.com/slsa-framework/slsa-source-poc/source-provenance/v1-draft",
-                        "runtime": "cel@v0",
+                        "runtime": "cel@v1",
                         "selector": "github.branchDescriptorFromURI(predicate.data.repoUri, 'main')"
                     }
                 }
@@ -50,7 +50,7 @@
                 {
                     "predicate": {
                         "type": "https://github.com/slsa-framework/slsa-source-poc/source-provenance/v1-draft",
-                        "runtime": "cel@v0",
+                        "runtime": "cel@v1",
                         "selector": "github.repoDescriptorFromURI(predicate.data.repoUri)"
                     }
                 }
@@ -66,7 +66,7 @@
                 {
                     "predicate": {
                         "type": "https://github.com/slsa-framework/slsa-source-poc/source-provenance/v1-draft",
-                        "runtime": "cel@v0",
+                        "runtime": "cel@v1",
                         "selector": "github.repoDescriptorFromURI(predicate.data.repoUri)"
                     }
                 }
@@ -79,7 +79,7 @@
                 {
                     "predicate": {
                         "type": "https://github.com/slsa-framework/slsa-source-poc/source-provenance/v1-draft",
-                        "runtime": "cel@v0",
+                        "runtime": "cel@v1",
                         "selector": "github.branchDescriptorFromURI(predicate.data.repoUri, 'main')"
                     }
                 }
