@@ -1,0 +1,29 @@
+{
+  "_type": "https://in-toto.io/Statement/v1",
+  "subject": [
+    {
+      "name": "artifact",
+      "digest": {
+        "sha256": "7950b24d06407456038435a2a3dfd99531ae8e35940b6fc4dae3cd6f1b504585"
+      }
+    }
+  ],
+  "predicateType": "https://openvex.dev/ns/v0.2.0",
+  "predicate": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://openvex.dev/docs/public/vex-2026-0001",
+    "author": "Test Author",
+    "timestamp": "2026-07-10T00:00:00Z",
+    "version": 1,
+    "statements": [
+      {
+        "vulnerability": { "name": "CVE-2026-1000" },
+        "products": [
+          { "@id": "pkg:golang/github.com/example/one@1.0.0" }
+        ],
+        "status": "not_affected",
+        "justification": "vulnerable_code_not_in_execute_path"
+      }
+    ]
+  }
+}

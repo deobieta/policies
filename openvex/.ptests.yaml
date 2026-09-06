@@ -1,0 +1,25 @@
+tests:
+  # Regression: @v1 OSV type (not @v1.6.7) must be accepted by tenet 01.
+  # Without the fix, the predicate filter only matched @v1.6.7 and this
+  # would fail with an empty predicate list.
+  - name: vexing-passes-when-no-vulns-osv-v1
+    policy: project-is-vexing.json
+    expect: PASS
+    subject: "sha256:7950b24d06407456038435a2a3dfd99531ae8e35940b6fc4dae3cd6f1b504585"
+    attestations:
+      - ../testdata/openvex/osv-no-vulns.intoto.json
+
+  - name: vexing-fails-when-vulns-not-vexed
+    policy: project-is-vexing.json
+    expect: FAIL
+    subject: "sha256:7950b24d06407456038435a2a3dfd99531ae8e35940b6fc4dae3cd6f1b504585"
+    attestations:
+      - ../testdata/openvex/osv-with-vulns.intoto.json
+
+  - name: vexing-passes-when-vulns-are-vexed
+    policy: project-is-vexing.json
+    expect: PASS
+    subject: "sha256:7950b24d06407456038435a2a3dfd99531ae8e35940b6fc4dae3cd6f1b504585"
+    attestations:
+      - ../testdata/openvex/osv-with-vulns.intoto.json
+      - ../testdata/openvex/openvex-not-affected.intoto.json
