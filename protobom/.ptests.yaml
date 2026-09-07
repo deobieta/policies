@@ -10,9 +10,10 @@
 #                      lifecycles
 #
 # Note: some CycloneDX cases are pinned to the current protobom behavior:
-# the CycloneDX unserializer does not populate metadata tools/authors or
-# component suppliers yet. When protobom implements those mappings the
-# affected expectations below should flip to PASS.
+# the CycloneDX unserializer does not populate metadata tools/authors yet.
+# When protobom implements those mappings the affected expectations below
+# should flip to PASS, floored with `ampel-version` at the release that
+# ships the fix (as done for component suppliers, mapped since v1.3.7).
 tests:
   # SBOM Author Signature: fixtures are unsigned statements, so the strict
   # standalone policy fails. (The CISA-SBOM-2026 group carries this same
@@ -140,10 +141,12 @@ tests:
     subject: "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
     attestations:
       - ../testdata/protobom/spdx-incomplete.intoto.json
-  # Pinned protobom behavior: CycloneDX component suppliers are not mapped yet
-  - name: producers-fails-with-cyclonedx-protobom-gap
+  # protobom reads CycloneDX component suppliers since ampel v1.3.7; older
+  # releases fail this check for CycloneDX documents and skip this case.
+  - name: producers-passes-with-cyclonedx-suppliers
     policy: protobom-sbom-producers.hjson
-    expect: FAIL
+    ampel-version: v1.3.7
+    expect: PASS
     subject: "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
     attestations:
       - ../testdata/protobom/cdx-complete.intoto.json

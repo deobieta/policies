@@ -1,10 +1,11 @@
 # Tests for the CISA 2026 SBOM Minimum Elements policy group.
 #
 # Note: the CycloneDX conformance test expects FAIL because protobom does
-# not yet map CycloneDX metadata tools/authors or component suppliers, so
-# the author, tool name, tool version and producer blocks cannot pass for
-# CycloneDX documents. When protobom implements those mappings the
-# expectation should flip to PASS (the fixture carries all the data).
+# not yet map CycloneDX metadata tools/authors, so the author, tool name
+# and tool version blocks cannot pass for CycloneDX documents (component
+# suppliers are mapped since ampel v1.3.7). When protobom implements the
+# remaining mappings the expectation should flip to PASS, floored with
+# `ampel-version` at that release (the fixture carries all the data).
 tests:
   - name: cisa-minimum-elements-pass-with-complete-spdx
     policy: cisa-sbom-minimum-elements.hjson

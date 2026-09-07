@@ -15,9 +15,9 @@
             back to its suppliers, as most SBOM generators record the
             producing entity in the supplier field.
 
-            Note: protobom does not yet populate supplier data when reading
-            CycloneDX documents, so CycloneDX SBOMs currently fail this check
-            even when the component supplier is set.
+            Note: protobom reads CycloneDX component suppliers since ampel
+            v1.3.7. On older releases CycloneDX SBOMs fail this check even
+            when the component supplier is set.
             '''
         controls: [ { framework: "CISA-SBOM-2026", class: "COMPONENT-DATA", id: "PRODUCER" } ]
     }
