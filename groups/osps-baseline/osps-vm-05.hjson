@@ -9,7 +9,7 @@
             "policies": [
                 {
                     "source": {
-                        "location": { "uri": "git+https://github.com/carabiner-dev/policies@b35570d519bbb7f58fb04d5d3b10f093bc9fd649#openvex/no-exploitable-vulns-osv.json" }
+                        "location": { "uri": "git+https://github.com/carabiner-dev/policies@f013fe5c22d051c17329d7b41ecb5c3df2e59b92#openvex/no-exploitable-vulns-osv.json" }
                     }
                 }
             ]
