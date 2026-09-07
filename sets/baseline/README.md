@@ -7,6 +7,12 @@ OpenSSF.
 This set is designed to showcase a large number of formats and technologies that
 ampel can use to validate the OSPS Baseline requirements.
 
+## Policy set
+
+<!-- policyctl:index:sets:begin -->
+_Run `make docs` to generate this table._
+<!-- policyctl:index:sets:end -->
+
 ## Controls and Policy Choices
 
 Some OSPS Baseline controls may be satisfied by more than one policy type or 
